@@ -4,7 +4,7 @@ from IPython.display import Markdown
 
 
 
-API_KEY = "AIzaSyDuRdWgzewtH-S454likHbb3rQWuqPe9s0"
+API_KEY = "API KEY"
 genai.configure(api_key=API_KEY)
 model = genai.GenerativeModel('gemini-pro-vision')
 img = PIL.Image.open('OIP (4).jpeg')
